@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>ShopWeb</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="./img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="active" href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping"></i></a>
+          </li>
+          <i id="close" class="fas fa-times"></i>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i style="color: black" class="fa-solid fa-bag-shopping"></i
+        ></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <section id="page-header" class="contact-header">
+      <h4>#let's_talk</h4>
+      <p>LEAVE A MESSAGE, We love to hear from you!!!</p>
+    </section>
+    <section id="contact-detail" class="section-p1">
+      <div class="detail">
+        <span>GET IN TOUCH</span>
+        <h2>Visit one of our agency locations or contact us today</h2>
+        <h3>Head Office</h3>
+        <ul>
+          <li>
+            <i class="fa-solid fa-map"></i>
+            <p>Lien Chieu, Da Nang</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-envelope"></i>
+            <p>phantri1617@gmail.com</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-phone"></i>
+            <p>0766552566</p>
+          </li>
+          <li>
+            <i class="fa-solid fa-clock"></i>
+            <p>Monday to Saturday: 9:00 AM to 16:00 PM</p>
+          </li>
+        </ul>
+      </div>
+      <div class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3833.8373422502536!2d108.14770341416997!3d16.073928343583137!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314218d68dff9545%3A0x714561e9f3a7292c!2zVHLGsOG7nW5nIMSQ4bqhaSBo4buNYyBCw6FjaCBLaG9hIC0gxJDhuqFpIGjhu41jIMSQw6AgTuG6tW5n!5e0!3m2!1svi!2s!4v1652843147305!5m2!1svi!2s"
+          width="100%"
+          height="300px"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <section id="form-detail">
+      <h3>Contact Form</h3>
+
+      <div class="container">
+        <form action="/action_page.php">
+          <label for="fname">First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="firstname"
+            placeholder="Your name.."
+          />
+
+          <label for="lname">Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lastname"
+            placeholder="Your last name.."
+          />
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+            <option value="vietnam">Viet Nam</option>
+          </select>
+
+          <label for="subject">Subject</label>
+          <textarea
+            id="subject"
+            name="subject"
+            placeholder="Write something.."
+            style="height: 200px"
+          ></textarea>
+
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+
+    <section id="news-letter" class="section-p1 section-m1">
+      <div class="letter">
+        <h2>Sign Up For Newsletters</h2>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+    <footer id="footer">
+      <img src="./img/logo.png" class="logo" alt="logo" />
+      <h4>Contact</h4>
+      <p><strong>Addres:</strong> Lien Chieu, Da Nang</p>
+      <p><strong>Phone:</strong> 0766552566</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
