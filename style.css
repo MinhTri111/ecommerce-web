@@ -299,7 +299,7 @@ body {
   background-color: #606063;
 }
 #sm-banner .banner-box:nth-child(2) {
-  background-image: url("./img//banner/bia2.jpg");
+  background-image: url("./img//banner/b10.jpg");
   color: white;
 }
 #sm-banner .banner-box button {
@@ -352,13 +352,12 @@ body {
   color: #fff;
 }
 #banner3 .banner-box:nth-child(2) {
-  background-image: url(./img//banner/b18.jpg);
+  background-image: url(./img//banner/bia2.jpg);
 }
 #banner3 .banner-box:nth-child(3) {
   background-image: url(./img//banner/b4.jpg);
 }
 #news-letter {
-  background-image: url("./img/banner/b14.png");
   background-color: #041e42;
   background-repeat: no-repeat;
   background-position: center;
