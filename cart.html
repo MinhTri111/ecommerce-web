@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>ShopWeb</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <section id="header">
+      <a href="index.html"><img src="./img/logo.png" class="logo" alt="" /></a>
+      <div>
+        <ul id="navbar">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li id="lg-bag">
+            <a class="active" href="cart.html"
+              ><i class="fa-solid fa-bag-shopping"></i
+            ></a>
+          </li>
+          <i id="close" class="fas fa-times"></i>
+        </ul>
+      </div>
+      <div id="mobile">
+        <a href="cart.html"
+          ><i style="color: black" class="fa-solid fa-bag-shopping"></i
+        ></a>
+        <i id="bar" class="fas fa-outdent"></i>
+      </div>
+    </section>
+    <section id="page-header" class="about-header">
+      <h4>#KnowUs</h4>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </section>
+    <section id="cart" class="section-p1">
+      <table width="100%">
+        <thead>
+          <tr>
+            <td>Remove</td>
+            <td>Image</td>
+            <td>Product</td>
+            <td>Price</td>
+            <td>Quantity</td>
+            <td>Subtotal</td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-calendar-xmark"></i></a>
+            </td>
+            <td><img src="./img/products/giay1.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="number" /></td>
+            <td>$118.19</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-calendar-xmark"></i></a>
+            </td>
+            <td><img src="./img/products/giay2.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="numer" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+          <tr>
+            <td>
+              <a href="#"><i class="fa-solid fa-calendar-xmark"></i></a>
+            </td>
+            <td><img src="./img/products/giay3.jpg" alt="" /></td>
+            <td>Cartoon Astronaut T-Shirts</td>
+            <td>$118.19</td>
+            <td><input type="numer" value="1" /></td>
+            <td>$118.19</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+    <section id="cart-add" class="section-p1">
+      <div class="coupon">
+        <h3>Apply Coupon</h3>
+        <div>
+          <input type="text" placeholder="Enter Your Coupon" />
+          <button class="normal">Apply</button>
+        </div>
+      </div>
+      <div class="total">
+        <h3>Cart Totals</h3>
+        <table>
+          <tr>
+            <td>Cart Subtotal</td>
+            <td>$335</td>
+          </tr>
+          <tr>
+            <td>Shipping</td>
+            <td>Free</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>$335</td>
+          </tr>
+        </table>
+        <button class="normal">Proceed to check out</button>
+      </div>
+    </section>
+    <section id="news-letter" class="section-p1 section-m1">
+      <div class="letter">
+        <h2>Sign Up For Newsletters</h2>
+        <p>
+          Get E-mail updates about our latest shop and
+          <span>special offers</span>
+        </p>
+      </div>
+      <div class="form">
+        <input type="text" placeholder="Your email address" />
+        <button class="normal">Sign Up</button>
+      </div>
+    </section>
+    <footer id="footer">
+      <img src="./img/logo.png" class="logo" alt="logo" />
+      <h4>Contact</h4>
+      <p><strong>Addres:</strong> Lien Chieu, Da Nang</p>
+      <p><strong>Phone:</strong> 0766552566</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
